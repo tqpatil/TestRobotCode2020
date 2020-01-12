@@ -25,6 +25,7 @@ public class OI {
     public Joystick leftstick = new Joystick(RobotMap.joystickPort1);
     public Joystick rightstick = new Joystick(RobotMap.joystickPort2);
     public JoystickButton intakeOn = new JoystickButton(rightstick,1);
+    intakeOn.whenPressed(new IntakeOn());
 
 
   
